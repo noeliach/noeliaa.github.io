@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contenedor {  
+    width: 70%; 
+    grid-template-columns: 30% 70%;
+    display: grid; 
+    margin: auto; 
+    box-shadow: 0 50px 50px #8f9097;   
+    font-family: 'Mynerve', cursive; 
+    cursor: default; 
+}
+
+
+
+
+/*COLUMNA #1*/
+#col1 {
+    background: #0a9bdf;
+    padding: 20px; 
+    border: 2px solid black; 
+}
+
+
+
+
+
+/*Perfil*/
+.perfil {  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 5%; 
+    border-bottom: 1px solid rgba(255,255,255,0.2); 
+}
+
+
+
+.imagen {
+    text-align: center; 
+}
+
+.perfil .imagen img { 
+    max-width: 70%;
+    height: auto; 
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.perfil h2 {
+    color: #fff;
+    font-weight: 600; 
+    font-size: 100%; 
+    text-transform: uppercase; 
+    text-align: center; 
+    margin-top: 20px; /*margen superior del texto*/
+}
+
+
+.perfil h2 span {
+font-size: 0.8em; 
+font-weight: 200;  
+text-align: center; 
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+  #mi-boton {
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+  }
+  
+
+
+
+
+
+/*Información personal*/
+.Infopersonal {
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 40px; 
+}
+
+
+.Infopersonal h3 {
+    color: #fff; 
+    font-size: 100%; 
+    text-transform: uppercase; 
+    text-align: center; 
+    letter-spacing: 1px; 
+    margin-bottom: 20px; 
+    margin-top: 30px; 
+    word-wrap: break-word; 
+}
+
+li {
+    list-style: none; 
+    margin: 0px 0px 10px 10px; 
+    padding: 0;
+    cursor: pointer; 
+    word-wrap: break-word; 
+}
+
+
+
+.tel:hover {
+color: rgb(16, 231, 8); 
+}
+.cal:hover {
+ color: rgb(255, 254, 252);  
+}
+.cor:hover {
+ color: rgb(255, 1, 1);  
+}
+.corr:hover {
+ color: rgb(0, 45, 245);  
+}
+.ubi:hover {
+ color: rgb(251, 255, 0); 
+}
+.texto:hover {
+ color: rgb(255, 255, 255); 
+}
+
+
+
+
+
+#col2 {  
+    background: #fff;
+    padding: 20px; 
+    border: 2px solid black; 
+}
+
+
+.experiencia {
+    padding: 2%;
+}
+
+
+.experiencia .caja {
+    display: flex; 
+    margin: 30px 0; 
+}
+
+.experiencia .caja .años {
+    width: 70%; 
+    margin: 5% 5% 5% 0%; 
+}
+
+.experiencia .caja .años h5 {
+    text-transform: uppercase; 
+    color: #848c90; 
+    font-weight: 600; 
+}
+
+.experiencia .caja .detalles h4 {
+    text-transform: uppercase; 
+    color:#008cff; 
+    font-size: 16px; 
+}
+
+
+.titulo {
+    text-align: center; 
+    color:#033b57; 
+}
+
+
+
+
+
+
+.habilidades {
+padding: 2%; 
+margin-top: 10%; 
+}
+
+
+.habilidades .caja {
+    margin: 30px 0; 
+}
+
+
+.habilidades .caja h4{
+    text-transform: uppercase; 
+    color:#008cff; 
+    font-size: 16px; 
+}
+
+
+.logo {
+    max-width: 30px; 
+    height: auto; 
+}
+
+p {
+    cursor: pointer; 
+}
+
+
+
+
+@media (max-width: 768px) {
+p, h3, span {
+font-size: 7px;
+}
+
+.Infopersonal {
+    font-size: 10px;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+.perfil .imagen img {
+    max-width: 90%;
+    height: auto;
+}
+    
+
+#col1 {
+    padding: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+.text {
+    transition: transform 0.3s; 
+  }
+
+
